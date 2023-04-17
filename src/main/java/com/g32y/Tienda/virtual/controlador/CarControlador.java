@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CarControlador {
     @GetMapping("/car")
     public String obtenerCar(){
-        return "hola mundo";
+        return "hola mundo y";
     }
 }
